@@ -25,6 +25,7 @@
 }.about_img{
     object-fit: cover;
     filter: brightness(0.6);
+    z-index: 0 !important;
 }.sub_heading_about, .sub_heading_skills{
     font-size: 14px;
 }.about_point, .about_point_ans{
@@ -91,7 +92,7 @@
 }header {
     position: sticky;
     top: 0px;
-    z-index: 10;
+    z-index: 10 !important;
 }.project_bg{
     background: url(../images/project_bg.jpg), #000000a7;
     background-size: cover;
