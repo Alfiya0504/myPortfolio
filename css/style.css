@@ -91,6 +91,7 @@
 }header {
     position: sticky;
     top: 0px;
+    z-index: 10;
 }.project_bg{
     background: url(../images/project_bg.jpg), #000000a7;
     background-size: cover;
